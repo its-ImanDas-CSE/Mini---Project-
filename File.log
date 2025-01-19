@@ -1,0 +1,43 @@
+{"level":"info","msg":"Successfully connected to the database","time":"2025-01-20T00:19:23+05:30"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-01-20T00:19:23+05:30"}
+{"level":"info","method":"GET","msg":"Incoming request","time":"2025-01-20T00:19:57+05:30","url":"/api/records?page=1\u0026size=1000"}
+{"level":"info","msg":"Records fetched successfully","records_count":1000,"time":"2025-01-20T00:19:57+05:30"}
+{"duration":"46.203ms","level":"info","msg":"Outgoing response","status":200,"time":"2025-01-20T00:19:57+05:30"}
+{"level":"info","method":"GET","msg":"Incoming request","time":"2025-01-20T00:20:33+05:30","url":"/api/logs"}
+{"level":"info","logCounts":{"DEBUG":0,"ERROR":0,"INFO":6},"msg":"Log analysis completed","time":"2025-01-20T00:20:33+05:30"}
+{"duration":"17.9012ms","level":"info","msg":"Outgoing response","status":200,"time":"2025-01-20T00:20:33+05:30"}
+{"level":"info","msg":"Test message","time":"2025-01-20T02:37:47+05:30"}
+{"level":"info","msg":"Test message","time":"2025-01-20T02:39:47+05:30"}
+{"level":"info","logCounts":{"DEBUG":1,"ERROR":1,"INFO":1},"msg":"Log analysis completed","time":"2025-01-20T02:58:59+05:30"}
+{"filePath":"non_existing_file.log","level":"error","msg":"Log file does not exist","time":"2025-01-20T02:58:59+05:30"}
+{"level":"info","method":"GET","msg":"Incoming request","time":"2025-01-20T02:58:59+05:30","url":"/test"}
+{"duration":"69.4µs","level":"info","msg":"Outgoing response","status":200,"time":"2025-01-20T02:58:59+05:30"}
+{"level":"info","method":"GET","msg":"Incoming request","time":"2025-01-20T02:58:59+05:30","url":"/test"}
+{"duration":"196.8µs","level":"info","msg":"Outgoing response","status":200,"time":"2025-01-20T02:58:59+05:30"}
+{"level":"info","msg":"Successfully connected to the database","time":"2025-01-20T02:58:59+05:30"}
+{"level":"info","msg":"Successfully connected to the database","time":"2025-01-20T02:59:00+05:30"}
+{"level":"info","method":"GET","msg":"Incoming request","time":"2025-01-20T02:59:00+05:30","url":"/api/records?page=1\u0026size=10"}
+{"level":"info","msg":"Records fetched successfully","records_count":10,"time":"2025-01-20T02:59:00+05:30"}
+{"duration":"6.257ms","level":"info","msg":"Outgoing response","status":200,"time":"2025-01-20T02:59:00+05:30"}
+{"level":"info","logCounts":{"DEBUG":1,"ERROR":1,"INFO":1},"msg":"Log analysis completed","time":"2025-01-20T03:00:47+05:30"}
+{"filePath":"non_existing_file.log","level":"error","msg":"Log file does not exist","time":"2025-01-20T03:00:47+05:30"}
+{"level":"info","method":"GET","msg":"Incoming request","time":"2025-01-20T03:00:47+05:30","url":"/test"}
+{"duration":"0s","level":"info","msg":"Outgoing response","status":200,"time":"2025-01-20T03:00:47+05:30"}
+{"level":"info","method":"GET","msg":"Incoming request","time":"2025-01-20T03:00:47+05:30","url":"/test"}
+{"duration":"0s","level":"info","msg":"Outgoing response","status":200,"time":"2025-01-20T03:00:47+05:30"}
+{"level":"info","msg":"Successfully connected to the database","time":"2025-01-20T03:00:48+05:30"}
+{"level":"info","msg":"Successfully connected to the database","time":"2025-01-20T03:00:48+05:30"}
+{"level":"info","method":"GET","msg":"Incoming request","time":"2025-01-20T03:00:48+05:30","url":"/api/records?page=1\u0026size=10"}
+{"level":"info","msg":"Records fetched successfully","records_count":10,"time":"2025-01-20T03:00:48+05:30"}
+{"duration":"6.6658ms","level":"info","msg":"Outgoing response","status":200,"time":"2025-01-20T03:00:48+05:30"}
+{"level":"info","logCounts":{"DEBUG":1,"ERROR":1,"INFO":1},"msg":"Log analysis completed","time":"2025-01-20T03:06:23+05:30"}
+{"filePath":"non_existing_file.log","level":"error","msg":"Log file does not exist","time":"2025-01-20T03:06:23+05:30"}
+{"level":"info","method":"GET","msg":"Incoming request","time":"2025-01-20T03:06:23+05:30","url":"/test"}
+{"duration":"0s","level":"info","msg":"Outgoing response","status":200,"time":"2025-01-20T03:06:23+05:30"}
+{"level":"info","method":"GET","msg":"Incoming request","time":"2025-01-20T03:06:23+05:30","url":"/test"}
+{"duration":"0s","level":"info","msg":"Outgoing response","status":200,"time":"2025-01-20T03:06:23+05:30"}
+{"level":"info","msg":"Successfully connected to the database","time":"2025-01-20T03:06:23+05:30"}
+{"level":"info","msg":"Successfully connected to the database","time":"2025-01-20T03:06:23+05:30"}
+{"level":"info","method":"GET","msg":"Incoming request","time":"2025-01-20T03:06:23+05:30","url":"/api/records?page=1\u0026size=10"}
+{"level":"info","msg":"Records fetched successfully","records_count":10,"time":"2025-01-20T03:06:23+05:30"}
+{"duration":"6.1218ms","level":"info","msg":"Outgoing response","status":200,"time":"2025-01-20T03:06:23+05:30"}

@@ -1,0 +1,38 @@
+
+
+services:
+  user_data_api:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - DB_HOST=localhost
+      - DB_PORT=8899
+      - DB_USER=postgres
+      - DB_PASSWORD=Virat@2#Virat@2#
+      - DB_NAME=mini-Project
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - api_network
+
+  db:
+    image: postgres
+    container_name: db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Virat@2#Virat@2#
+      POSTGRES_DB: mini-Project
+    ports:
+      - "8899:5432"  # PostgreSQL will be available at localhost:5432
+    volumes:
+      - pgdata:/var/lib/postgresql/data  # Persist database data
+    networks:
+      - api_network  # Connect db to the same network as the app
+
+networks:
+  api_network:
+    driver: bridge
+
+volumes:
+  pgdata:

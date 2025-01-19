@@ -1,0 +1,6 @@
+# Exclude unnecessary files/folders from being copied into the Docker image
+.git
+node_modules
+*.log
+*.md
+test/
